@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de Sesión</title>
+    <title>Sistema de Gestión</title>
 
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -13,26 +13,45 @@
 
     <div class="contenedor">
 
-        <form class="formulario">
+        <div class="card">
 
-            <h2>Iniciar Sesión</h2>
-            <p>Ingrese sus credenciales para continuar</p>
-
-            <div class="grupo">
-                <label for="usuario">Usuario</label>
-                <input type="text" id="usuario" placeholder="Ingrese su usuario">
+            <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                    alt="Usuario">
             </div>
 
-            <div class="grupo">
-                <label for="password">Contraseña</label>
-                <input type="password" id="password" placeholder="Ingrese su contraseña">
+            <h1>Sistema de Gestión</h1>
+            <p>Bienvenido, ingrese sus credenciales</p>
+
+            <form>
+
+                <div class="grupo">
+                    <label>Usuario</label>
+                    <input type="text" placeholder="Ingrese su usuario">
+                </div>
+
+                <div class="grupo">
+                    <label>Contraseña</label>
+                    <input type="password" placeholder="Ingrese su contraseña">
+                </div>
+
+                <button type="submit">
+                    Iniciar Sesión
+                </button>
+
+            </form>
+
+            <div class="opciones">
+                <a href="#">¿Olvidó su contraseña?</a>
             </div>
 
-            <button type="submit">Ingresar</button>
-
-        </form>
+        </div>
 
     </div>
+
+    <footer>
+        © 2026 - Sistema de Gestión | GitHub Actions - CI/CD
+    </footer>
 
 </body>
 
